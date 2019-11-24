@@ -163,8 +163,6 @@ public class Camera2Fragment extends Fragment implements MainActivity.OnStartPro
     }
 
     private void sendPictureToCloud(Image rawImage) {
-        RUNNING = false;
-
         ByteBuffer imgBuffer = rawImage.getPlanes()[0].getBuffer();
         byte[] imgBytes = new byte[imgBuffer.capacity()];
         imgBuffer.get(imgBytes);
@@ -324,20 +322,13 @@ public class Camera2Fragment extends Fragment implements MainActivity.OnStartPro
 
     @Override
     public void startProcessing() {
+        Log.d("Hack19", "START PROCESSING");
         RUNNING = true;
-        timer = new Timer();
-        timer.schedule(new TimerTask() {
-            @Override
-            public void run() {
-                RUNNING = true;
-            }
-        }, 0, 1000);
     }
 
     @Override
     public void stopProcessing() {
         Log.d("Hack19", "STOP PROCESSING");
-        if (timer != null)
         RUNNING = false;
     }
 
