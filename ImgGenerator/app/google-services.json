@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697294915896",
+    "firebase_url": "https://cazi-img.firebaseio.com",
+    "project_id": "cazi-img",
+    "storage_bucket": "cazi-img.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697294915896:android:eb2abaf5aec4de2033d9cd",
+        "android_client_info": {
+          "package_name": "com.cazi.imggenerator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697294915896-jqphfdfmv28gt1m1vte2qjkb769lgcvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuh6F6ERfssB74uinBFYQiRjxooi5zYKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697294915896-jqphfdfmv28gt1m1vte2qjkb769lgcvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
